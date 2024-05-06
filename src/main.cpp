@@ -3,5 +3,6 @@
 int main()
 {
     print("Hello world");
+    std::cin.get();
     return 0;
 }

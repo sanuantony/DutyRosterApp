@@ -1,7 +1,7 @@
 # DutyRosterApp
 
 
-
+Requirement : 
 
 1) I have N number of staff for them I want to create Duty roster for a month
 
@@ -33,3 +33,28 @@
 
 
 
+User Story: Duty Roster App
+As a manager of a company
+I want a duty roster application built in C++
+So that I can create a fair and efficient schedule for my staff for a month.
+
+Acceptance Criteria:
+
+The application allows me to enter the number of staff members (N).
+Staff members can input their leave plans for the month, specifying dates.
+The application supports three types of shifts:
+Morning (8 AM - 3 PM)
+Afternoon (2 PM - 9 PM)
+Night (8 PM - 9 AM next day)
+The application strives to assign an equal number of shifts to each staff member throughout the month.
+The application enforces a maximum of 3 consecutive days for the same shift type (morning, afternoon, or night) for each staff member.
+After a night shift, a staff member can only be assigned another night shift or a day off.
+There must always be at least one staff member assigned to each shift.
+Each staff member gets at least 4 full days off per month (can be spread across the month).
+The application ensures no staff member works more than 6 consecutive days.
+The application presents a clear and readable roster for the entire month, displaying staff names and assigned shifts for each day.
+Additional Considerations:
+
+The application should handle invalid input gracefully.
+It would be beneficial if the application could offer suggestions or alternative schedules if it cannot generate a perfect fit based on the constraints.
+The ability to save and export the generated roster in a common format (e.g., CSV) would be valuable.
