@@ -1,0 +1,16 @@
+Entity 
+	Hospital
+User
+	Admin - The person who generate the duty roster.
+		
+	Employee
+		Nurse
+    -- Leave -> date , emp		
+Roster
+	GeneratingCalendar(1 shift | 2 shift... n shift, employess )
+
+Calendar
+		x-     16 May	17 May	 18 May
+	Y-
+  Sanu           x       o           x
+  Pradeep        o       x           x
